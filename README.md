@@ -1,12 +1,51 @@
-# React + Vite
+#  AI Analytics Dashboard  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Project Overview  
+AI Analytics Dashboard is an interactive, AI-powered query processing tool that allows users to:  
+*Ask business-related questions in natural language  
+*Simulate AI query processing and get dynamic results  
+*Visualize data insights with interactive charts  
+*Maintain a query history for better analysis  
 
-Currently, two official plugins are available:
+This project demonstrates React-based frontend development with state management and data visualization, making it a perfect example of a modern, intelligent dashboard.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features  
+###  AI-Powered Query Input
+- Users can enter natural language queries  
+- Intelligent suggestions guide users in formulating queries  
+
+##AI Query Processing (Simulation)  
+- Mock AI engine processes the query  
+- Generates dynamic results in real-time  
+
+###  Query History Management  
+- Stores previously entered queries  
+- Allows users to revisit and analyze past queries  
+
+### Interactive Data Visualization  
+- Results are displayed using beautiful bar charts  
+- Chart.js ensures a smooth, interactive experience  
+
+###  Error Handling & Loading States
+- Displays proper error messages for invalid queries  
+- Shows loading indicators while processing  
+
+###  Modern, Responsive UI  
+- Designed with Tailwind CSS for a sleek, responsive experience  
+- Works seamlessly across all devices  
+
+
+##  Tech Stack  
+
+| Technology  | Usage |  
+
+| React.js  | Core UI Development  |  
+| Redux Toolkit | State Management  |  
+| Tailwind CSS  | Styling & Layout  |  
+| Chart.js  | Data Visualization  |  
+| Vite  | Fast Build Tool  |  
+
+This tech stack ensures the app is fast, responsive, and scalable.  
+  
